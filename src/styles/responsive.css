@@ -40,9 +40,8 @@
 
   nav {
     display: flex;
-    flex-direction: column;
-    padding: 3em 0px;
-    height: 175px;
+    padding: 2em 0px;
+    height: auto;
     flex-wrap: wrap;
   }
 
@@ -58,10 +57,11 @@
 
   .nav-list-block {
     display: flex;
+    flex-direction: column;
     width: 100%;
     align-items: center;
     justify-content: center;
-
+    margin-top: 1em;
     border-top: 1px solid #404040;
     border-bottom: 1px solid #404040;
   }
@@ -105,6 +105,9 @@
 
 /* Extra large devices ( >= 1200px ) */
 @media only screen and (min-width: 1200px) {
+  .hero__wrapper img {
+    min-width: 1000px;
+  }
   main {
     max-width: 1200px;
   }

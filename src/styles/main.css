@@ -34,7 +34,8 @@ main {
   text-align: center;
   transition: 0.3s;
   cursor: pointer;
-  background-color: var(--primary-color);
+  background-color: #c6f2f8;
+  border-radius: 10px;
 }
 
 .card:hover {

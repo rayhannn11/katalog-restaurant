@@ -7,7 +7,6 @@ import "../styles/main.css";
 import "../styles/responsive.css";
 
 import DATA from "../DATA.json";
-console.log(DATA);
 
 // toggle Drawer
 document.querySelector(".menu").addEventListener("click", function () {
