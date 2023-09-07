@@ -18,10 +18,15 @@ nav {
 }
 
 .menu {
-  font-size: 25px;
   display: none;
-  width: 25px;
+  font-size: 50.5px;
   color: var(--font-color);
+}
+
+span.fa.fa-bars,
+span.fa.fa-bars::before {
+  min-height: 44px;
+  min-width: 44px;
 }
 
 .menu:hover {
